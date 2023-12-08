@@ -1,0 +1,293 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+header {
+  background-color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+nav {
+  background-color: #0c87f2;
+  padding: 10px 0;
+  height: 50px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 8px;
+  background-color: #0079c2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.berita-terkini {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-controls {
+  display: none;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container-pengumuman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container-spmb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-item {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  max-width: 30%;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px 2px #ccc;
+}
+
+.image-item-pengumuman {
+  text-align: center;
+  margin: 20px 0px 0px 20px;
+  padding: 18px;
+  background-color: #ffffff;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.image-item-spmb {
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 18px;
+  margin-top: 2.56rem;
+  background-color: #ffffff;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+p {
+  font-size: 14px;
+  width: fit-content;
+}
+
+.pengumuman {
+  display: flex;
+  justify-content: center;
+}
+.pengumuman h2 {
+  color: white;
+  font-weight: bold;
+  line-height: 20px;
+}
+.footerBawah {
+  display: flex;
+  background-color: #46166b;
+}
+.bagianFooter {
+  max-width: 33.3%;
+  width: 33.3%;
+  color: white;
+  padding: 1rem;
+}
+
+.footerKiri {
+  padding-left: 3rem;
+}
+.tempatAkreditasi img {
+  margin-left: -2rem;
+}
+
+.footerKanan {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copyright {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.w-100 {
+  width: 100%;
+}
+.teksSPMB {
+  text-align: justify;
+}
+.card {
+  width: 18rem;
+  display: inline-block;
+  margin: 9px;
+}
+.footer {
+  width: 25%;
+}
+h5 {
+  color: #023059;
+}
+
+h6 {
+  color: #023059;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#section1 {
+  background-color: #f1f1f1;
+}
+
+#section2 {
+  background-color: #ffffff;
+}
+
+#section3 {
+  background-color: #ffffff;
+}
+.berita-terkini {
+  background-color: #0c87f2;
+}
+.logo-container {
+  color: black;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.content {
+  margin: 10px;
+  max-width: 100%;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px\16px 0px;
+}
+
+h4 {
+  color: #023059;
+}
+
+.card-img-top {
+  width: 300px;
+  height: 150px;
+}
+.content ul li a {
+  color: #023059;
+}
+.Kegiatan .btn-primary {
+  background-color: #0c87f2;
+  color: #fff;
+}
+p a {
+  color: #023059;
+}
+.search-button {
+  margin-right: 15px;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+h5 {
+  margin-top: 10px;
+}
